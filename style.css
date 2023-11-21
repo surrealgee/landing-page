@@ -82,4 +82,73 @@ a {
     font-weight: 700;
 }
 
+.random-inf {
+    padding: 2em 0;
+}
+
+.random-inf .wrapper {
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.sub-header {
+    color: #1f2937;
+}
+
+.illustration {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 0 100px;
+}
+
+.subtext {
+    color: #8d8e91;
+    font-size: 18px;
+    max-width: 177px;
+}
+
+.testimonial {
+    padding: 3em;
+    background-color: #e5e7eb;
+}
+
+.testimonial .wrapper {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    text-align: left;
+}
+
+.cite {
+    align-self: flex-end;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 
